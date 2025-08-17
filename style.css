@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+        
+body {
+    background-image: url('assets/fondo.jpg'); /* Cambia la URL por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    }
+
+@font-face {
+    font-family: "Titulo";
+    src: url("assets/fuentes/super_chips/Super\ Chips.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "enlaces";
+    src: url("assets/fuentes/Caveat_Brush,Lora/Caveat_Brush/CaveatBrush-Regular.ttf") format("truetype");
+}
+
+.titulo {
+    font-family: "Titulo", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+}
+.azul {
+    color: #acacac;
+}
+.blanco {
+    color: #000000;
+}
+.rojo {
+    color:rgb(255, 253, 253);
+}
+
+a {
+      color: black;        /* el color que quieras */
+      text-decoration: none; /* quita el subrayado */
+    }
+
+    a:hover {
+      color: rgb(143, 60, 60);          /* cambia el color al pasar el mouse (opcional) */
+    }
+.enlaces{
+    position: fixed;
+    bottom: 0;         /* lo manda hasta el borde inferior */
+    width: 100%;       /* ocupa todo el ancho */
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+    color:#ffffff;
+    font-family: "enlaces", sans-serif;
+}
+
+.imagen {
+    max-width: 25vw;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    transform: translate(-50%, -50%); /* centra desde el punto medio */
+    }
