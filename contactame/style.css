@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+        
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    }
+.collage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+.recorte {
+      position: absolute; /* permite ponerlos en cualquier lugar */
+      width: 200px;
+      transform: rotate(-5deg); /* inclinar la imagen para que se vea “pegada” */
+    }

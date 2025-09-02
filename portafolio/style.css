@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+        
+body {
+    background-image: url('assets/fondo0.jpg'); /* Cambia la URL por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    }
+
+a {
+      color: black;        /* el color que quieras */
+      text-decoration: none; /* quita el subrayado */
+    }
+
+    a:hover {
+      color: rgb(143, 60, 60);          /* cambia el color al pasar el mouse (opcional) */
+    }
+.enlaces{
+    position: fixed;
+    bottom: 0;         /* lo manda hasta el borde inferior */
+    width: 100%;       /* ocupa todo el ancho */
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+    color:#ffffff;
+    font-family: "enlaces", sans-serif;
+}
